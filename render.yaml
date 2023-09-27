@@ -7,6 +7,6 @@ services:
     region: Singapore # optional (defaults to oregon)
     plan: free # optional (defaults to starter)
     healthCheckPath: /
-    buildCommand:./install.sh
-    startCommand:./entrypoint.sh
+    buildCommand: ./install.sh
+    startCommand: ./entrypoint.sh
 
