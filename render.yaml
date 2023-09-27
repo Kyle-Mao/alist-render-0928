@@ -2,7 +2,7 @@ services:
   # A Docker web service
   - type: web
     name: AList+Aria2
-    # env: docker
+    runtime: go
     repo: https://github.com/Kyle-Mao/alist-render-0928.git # optional
     region: Singapore # optional (defaults to oregon)
     plan: free # optional (defaults to starter)
